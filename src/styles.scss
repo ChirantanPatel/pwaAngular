@@ -1,0 +1,169 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;   font-family:'Ubuntu' !important; }
+body { margin: 0;  font-family:'Ubuntu' !important; }
+
+.splash {
+    opacity: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    color: #272c33;
+    padding-top: 25vh;
+    text-align: center;
+    z-index: -1;
+    font-family:'Ubuntu' !important;
+  }
+
+  app-root:empty+.splash {
+    opacity: 1;
+    z-index: 100;
+  }
+
+  .splash h1 {
+    margin-bottom: 50px;
+  }
+
+  
+
+  .FSection {
+    padding: 30px 15px 15px 15px;
+  }
+
+  .w-100 {
+    width: 100%;
+}
+
+.Back-btn {
+  background-color: #959595;
+  color: #fff !important;
+  
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.LR-btn {
+  min-height: 44px;
+  min-width: 130px !important;
+}
+
+.mr-15 {
+  margin-right: 15px !important;
+}
+
+button {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+table {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-form-field{
+  font-family:'Ubuntu' !important;
+}
+.mat-button, .mat-fab, .mat-flat-button, .mat-icon-button, .mat-mini-fab, .mat-raised-button, .mat-stroked-button {
+  font-family:'Ubuntu' !important;
+}
+.mat-list-item {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-list-option {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-button-toggle {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-card {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-calendar {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-expansion-panel-header {
+ font-family:'Ubuntu' !important;
+  font-size: 15px;
+  font-weight: 400
+}
+
+.mat-menu-item {
+ font-family:'Ubuntu' !important;
+  font-size: 14px;
+  font-weight: 400
+}
+
+.mat-paginator, .mat-paginator-page-size .mat-select-trigger {
+ font-family:'Ubuntu' !important;
+  font-size: 12px
+}
+
+.mat-radio-button {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-select {
+  font-family:'Ubuntu' !important;
+}
+
+
+.mat-slide-toggle-content {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-slider-thumb-label-text {
+ font-family:'Ubuntu' !important;
+  font-size: 12px;
+  font-weight: 500
+}
+
+.mat-stepper-horizontal, .mat-stepper-vertical {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-tab-group {
+  font-family:'Ubuntu' !important;
+}
+
+.mat-tab-label, .mat-tab-link {
+ font-family:'Ubuntu' !important;
+  
+}
+
+.mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6 {
+  font: 500 20px/32px Ubuntu !important
+}
+
+.mat-tooltip {
+ font-family:'Ubuntu' !important;
+}
+
+.mat-list-base .mat-subheader {
+ font-family:'Ubuntu' !important;
+  font-size: 14px;
+  font-weight: 500
+}
+
+
+.mat-simple-snackbar {
+ font-family:'Ubuntu' !important;
+  font-size: 14px
+}
+
+.mat-simple-snackbar-action {
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500
+}
+
+h1{
+ font-family:'Ubuntu' !important;
+
+}
